@@ -113,7 +113,7 @@ export default function Home() {
       {/* Footer */}
       <footer id="contact" className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="font-bold text-lg mb-4">Astraloka</h3>
               <p className="text-gray-400">Komunitas Astraloka adalah organisasi yang berfokus pada pendidikan lingkungan dan pengelolaan sampah.</p>
@@ -127,21 +127,11 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold mb-4">Layanan Kami</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition">Edukasi Lingkungan</a></li>
-                <li><a href="#" className="hover:text-white transition">Workshop Pengelolaan Sampah</a></li>
-                <li><a href="#" className="hover:text-white transition">Kegiatan Lapangan</a></li>
-                <li><a href="#" className="hover:text-white transition">Kampanye Kesadaran</a></li>
-              </ul>
-            </div>
-            <div>
               <h3 className="font-bold mb-4">Ikuti Kami</h3>
               <div className="flex gap-4">
-                <a href="#" className="text-gray-400 hover:text-white transition">f</a>
-                <a href="#" className="text-gray-400 hover:text-white transition">𝕏</a>
-                <a href="#" className="text-gray-400 hover:text-white transition">in</a>
-                <a href="#" className="text-gray-400 hover:text-white transition">📌</a>
+                <a href="https://www.tiktok.com/@astraloka.community.id" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition" title="TikTok">🎵</a>
+                <a href="https://www.youtube.com/@Astralokacommunity" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition" title="YouTube">📺</a>
+                <a href="https://www.facebook.com/ham.cupayy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition" title="Facebook">f</a>
               </div>
             </div>
           </div>
