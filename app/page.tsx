@@ -64,9 +64,9 @@ export default function Home() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-5xl mb-4">🤝</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Kolaborasi yang Kuat</h3>
-              <p className="text-gray-700">Kami bekerja sama dengan berbagai pemangku kepentingan untuk mencapai dampak maksimal.</p>
+              <div className="text-5xl mb-4">🔥</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Inisiatif Pribadi</h3>
+              <p className="text-gray-700">Semangat tinggi dari setiap anggota tim untuk menciptakan perubahan nyata dan menginspirasi masyarakat luas.</p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">💡</div>
@@ -76,7 +76,7 @@ export default function Home() {
             <div className="text-center">
               <div className="text-5xl mb-4">🌍</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Dampak Nyata</h3>
-              <p className="text-gray-700">Hasil terukur yang memberikan perubahan positif bagi lingkungan dan masyarakat.</p>
+              <p className="text-gray-700">Hasil nyata walau sedikit yang memberikan perubahan positif bagi lingkungan dan masyarakat.</p>
             </div>
           </div>
         </div>
