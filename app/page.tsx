@@ -1,30 +1,10 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Navbar */}
-      <nav className="sticky top-0 z-50 bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">A</span>
-            </div>
-            <span className="font-bold text-xl text-gray-900">Astraloka</span>
-          </div>
-          <ul className="hidden md:flex gap-8 text-gray-700">
-            <li><a href="#home" className="hover:text-green-600 transition">Home</a></li>
-            <li><Link href="/blog" className="hover:text-green-600 transition">Blog</Link></li>
-            <li><a href="#services" className="hover:text-green-600 transition">Service</a></li>
-            <li><a href="#contact" className="hover:text-green-600 transition">Contact</a></li>
-          </ul>
-          <button className="md:hidden text-gray-700">☰</button>
-        </div>
-      </nav>
-
       {/* Hero Section */}
       <section id="home" className="bg-gradient-to-r from-green-50 to-green-100 py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
@@ -111,38 +91,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer id="contact" className="bg-gray-900 text-white py-12 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h3 className="font-bold text-lg mb-4">Astraloka</h3>
-              <p className="text-gray-400">Komunitas Astraloka adalah organisasi yang berfokus pada pendidikan lingkungan dan pengelolaan sampah.</p>
-            </div>
-            <div>
-              <h3 className="font-bold mb-4">Tautan</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#home" className="hover:text-white transition">Home</a></li>
-                <li><Link href="/blog" className="hover:text-white transition">Blog</Link></li>
-                <li><a href="#services" className="hover:text-white transition">Service</a></li>
-                <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold mb-4">Ikuti Kami</h3>
-              <div className="flex gap-4">
-                <a href="https://www.tiktok.com/@astraloka.community.id" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition" title="TikTok">🎵</a>
-                <a href="https://www.youtube.com/@Astralokacommunity" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition" title="YouTube">📺</a>
-                <a href="https://www.facebook.com/ham.cupayy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition" title="Facebook">f</a>
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Astraloka Community. Semua hak dilindungi.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

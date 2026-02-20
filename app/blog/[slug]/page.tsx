@@ -54,39 +54,15 @@ export default function BlogDetailPage({ params }: { params: Promise<{ slug: str
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-white">
-        {/* Navbar */}
-        <nav className="sticky top-0 z-50 bg-white shadow-sm">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
-              <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">A</span>
-              </div>
-              <span className="font-bold text-xl text-gray-900">Astraloka</span>
-            </Link>
-          </div>
-        </nav>
-        <div className="flex items-center justify-center py-12">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-green-600"></div>
-        </div>
+      <div className="bg-white min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-green-600"></div>
       </div>
     );
   }
 
   if (error || !post) {
     return (
-      <div className="min-h-screen bg-white">
-        {/* Navbar */}
-        <nav className="sticky top-0 z-50 bg-white shadow-sm">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
-              <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">A</span>
-              </div>
-              <span className="font-bold text-xl text-gray-900">Astraloka</span>
-            </Link>
-          </div>
-        </nav>
+      <div className="bg-white">
         <div className="max-w-7xl mx-auto px-4 py-12">
           <div className="bg-red-50 border border-red-200 text-red-700 px-6 py-4 rounded-lg mb-6">
             <p className="mb-4">{error || 'Artikel tidak ditemukan'}</p>
@@ -103,25 +79,7 @@ export default function BlogDetailPage({ params }: { params: Promise<{ slug: str
   const author = getAuthorFromPost(post);
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Navbar */}
-      <nav className="sticky top-0 z-50 bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
-            <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">A</span>
-            </div>
-            <span className="font-bold text-xl text-gray-900">Astraloka</span>
-          </Link>
-          <ul className="hidden md:flex gap-8 text-gray-700">
-            <li><Link href="/" className="hover:text-green-600 transition">Home</Link></li>
-            <li><Link href="/blog" className="hover:text-green-600 transition">Blog</Link></li>
-            <li><a href="/#services" className="hover:text-green-600 transition">Service</a></li>
-            <li><a href="/#contact" className="hover:text-green-600 transition">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-
+    <div className="bg-white">
       {/* Article Header */}
       <article className="max-w-4xl mx-auto px-4 py-12">
         <Link 
@@ -194,13 +152,6 @@ export default function BlogDetailPage({ params }: { params: Promise<{ slug: str
           </div>
         )}
       </article>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8 px-4 mt-16">
-        <div className="max-w-7xl mx-auto text-center">
-          <p>&copy; 2026 Astraloka Community. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 }

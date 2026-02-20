@@ -13,7 +13,7 @@ export function Navigation() {
           <span className="font-bold text-xl text-gray-900">Astraloka</span>
         </Link>
         <ul className="hidden md:flex gap-8 text-gray-700">
-          <li><Link href="/" className="hover:text-green-600 transition">Home</Link></li>
+          <li><a href="/" className="hover:text-green-600 transition">Home</a></li>
           <li><Link href="/blog" className="hover:text-green-600 transition">Blog</Link></li>
           <li><a href="/#services" className="hover:text-green-600 transition">Service</a></li>
           <li><a href="/#contact" className="hover:text-green-600 transition">Contact</a></li>
