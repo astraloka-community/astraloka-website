@@ -10,7 +10,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-sm font-semibold text-green-600 mb-4">Membangun Kesadaran Lingkungan Bersama</h2>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Komunitas Astraloka: Mendorong Perubahan untuk Lingkungan yang Lebih Baik
+            Mendorong Perubahan untuk Lingkungan yang Lebih Baik
           </h1>
         </div>
       </section>
