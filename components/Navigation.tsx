@@ -16,7 +16,6 @@ export function Navigation() {
           <li><a href="/" className="hover:text-green-600 transition">Home</a></li>
           <li><Link href="/blog" className="hover:text-green-600 transition">Blog</Link></li>
           <li><a href="/#services" className="hover:text-green-600 transition">Service</a></li>
-          <li><a href="/#contact" className="hover:text-green-600 transition">Contact</a></li>
         </ul>
         <button className="md:hidden text-gray-700">☰</button>
       </div>
