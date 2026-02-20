@@ -28,8 +28,6 @@ export function Navigation() {
         <ul className="hidden md:flex gap-8 text-gray-700">
           <li><a href="/" className="hover:text-green-600 transition">Home</a></li>
           <li><Link href="/blog" className="hover:text-green-600 transition">Blog</Link></li>
-          <li><a href="/#services" className="hover:text-green-600 transition">Service</a></li>
-          <li><a href="/#contact" className="hover:text-green-600 transition">Contact</a></li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -63,24 +61,6 @@ export function Navigation() {
               >
                 Blog
               </Link>
-            </li>
-            <li>
-              <a 
-                href="/#services" 
-                onClick={closeMenu}
-                className="block py-2 hover:text-green-600 transition"
-              >
-                Service
-              </a>
-            </li>
-            <li>
-              <a 
-                href="/#contact" 
-                onClick={closeMenu}
-                className="block py-2 hover:text-green-600 transition"
-              >
-                Contact
-              </a>
             </li>
           </ul>
         </div>
