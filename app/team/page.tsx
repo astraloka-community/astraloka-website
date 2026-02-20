@@ -44,8 +44,13 @@ export default function Team() {
 
             {/* Member 2 */}
             <div className="text-center">
-              <div className="w-64 h-96 bg-gradient-to-br from-green-100 to-green-200 rounded-lg mx-auto mb-8 flex items-center justify-center shadow-lg">
-                <div className="text-9xl">👤</div>
+              <div className="relative w-64 h-96 mx-auto mb-8">
+                <Image
+                  src="/team/ahla.jpg"
+                  alt="Muhammad Ahlat Thoba'i"
+                  fill
+                  className="rounded-lg object-cover shadow-lg"
+                />
               </div>
               <h2 className="text-3xl font-bold text-gray-900 mb-2">Muhammad Ahlat Thoba'i</h2>
               <p className="text-xl text-green-600 font-semibold mb-4">Pengawas Komunitas</p>
