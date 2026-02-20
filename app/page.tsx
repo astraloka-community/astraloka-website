@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           </div>
           <ul className="hidden md:flex gap-8 text-gray-700">
             <li><a href="#home" className="hover:text-green-600 transition">Home</a></li>
+            <li><Link href="/blog" className="hover:text-green-600 transition">Blog</Link></li>
             <li><a href="#services" className="hover:text-green-600 transition">Service</a></li>
             <li><a href="#contact" className="hover:text-green-600 transition">Contact</a></li>
           </ul>
@@ -122,6 +124,7 @@ export default function Home() {
               <h3 className="font-bold mb-4">Tautan</h3>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#home" className="hover:text-white transition">Home</a></li>
+                <li><Link href="/blog" className="hover:text-white transition">Blog</Link></li>
                 <li><a href="#services" className="hover:text-white transition">Service</a></li>
                 <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
               </ul>
