@@ -65,30 +65,18 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Temui Tim Kami</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gray-100 p-8 rounded-lg text-center">
-              <div className="relative w-24 h-24 mx-auto mb-4">
-                <Image
-                  src="/team/syafik.jpeg"
-                  alt="Muhammad Syafik"
-                  fill
-                  className="rounded-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Muhammad Syafik</h3>
-              <p className="text-green-600 font-semibold">Pengelola Komunitas</p>
-            </div>
-            <div className="bg-gray-100 p-8 rounded-lg text-center">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-700">
-                👤
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Muhammad Ahlat Thoba'i</h3>
-              <p className="text-green-600 font-semibold">Pengawas Komunitas</p>
-            </div>
-          </div>
+      <section className="py-16 px-4 bg-gradient-to-r from-green-50 to-green-100">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Temui Tim Kami</h2>
+          <p className="text-gray-700 mb-8 max-w-2xl mx-auto">
+            Tim yang berdedikasi untuk membangun kesadaran lingkungan dan menciptakan perubahan positif.
+          </p>
+          <a 
+            href="/team"
+            className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition"
+          >
+            Lihat Tim Lengkap →
+          </a>
         </div>
       </section>
     </div>
