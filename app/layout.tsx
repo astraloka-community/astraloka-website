@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Astraloka Community - Membangun Kesadaran Lingkungan Bersama",
   description: "Komunitas Astraloka adalah organisasi yang berfokus pada pendidikan lingkungan dan pengelolaan sampah untuk masa depan yang lebih berkelanjutan.",
+  verification: {
+    google: "ueUurkGBfSStij3HV2uPRW9FqeTT5LctZ-hKHMa9hEE",
+  },
 };
 
 export default function RootLayout({
