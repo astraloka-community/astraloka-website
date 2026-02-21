@@ -64,6 +64,57 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section id="about" className="py-16 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Tentang Kami</h2>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Astraloka adalah komunitas yang berdedikasi untuk meningkatkan kesadaran lingkungan dan mendorong tindakan nyata dalam pengelolaan lingkungan yang berkelanjutan.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Kami percaya bahwa perubahan dimulai dari kesadaran individu. Melalui program edukasi dan inisiatif komunitas, kami bekerja untuk menciptakan dampak positif bagi lingkungan.
+              </p>
+              <div className="space-y-3 mt-6">
+                <div className="flex items-start gap-3">
+                  <span className="text-green-600 text-2xl">✓</span>
+                  <span className="text-gray-700">Program edukasi berbasis digital</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-green-600 text-2xl">✓</span>
+                  <span className="text-gray-700">Komunitas aktif dan peduli lingkungan</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-green-600 text-2xl">✓</span>
+                  <span className="text-gray-700">Inisiatif nyata dengan transparansi penuh</span>
+                </div>
+              </div>
+            </div>
+            <div className="bg-gradient-to-br from-green-100 to-green-50 rounded-lg p-8">
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-white p-6 rounded-lg text-center">
+                  <div className="text-3xl font-bold text-green-600 mb-2">100%</div>
+                  <p className="text-sm text-gray-700">Komitmen terhadap<br/>Lingkungan</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg text-center">
+                  <div className="text-3xl font-bold text-green-600 mb-2">∞</div>
+                  <p className="text-sm text-gray-700">Potensi Dampak<br/>Positif</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg text-center">
+                  <div className="text-3xl font-bold text-green-600 mb-2">1</div>
+                  <p className="text-sm text-gray-700">Misi Bersama:<br/>Bumi yang Lebih Hijau</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg text-center">
+                  <div className="text-3xl font-bold text-green-600 mb-2">Anda</div>
+                  <p className="text-sm text-gray-700">Bagian Penting dari<br/>Gerakan Kami</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Team Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-green-50 to-green-100">
         <div className="max-w-7xl mx-auto text-center">
