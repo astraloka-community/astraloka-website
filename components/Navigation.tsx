@@ -27,6 +27,7 @@ export function Navigation() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-gray-700">
           <li><a href="/" className="hover:text-green-600 transition">Home</a></li>
+          <li><Link href="/gallery" className="hover:text-green-600 transition">Galeri</Link></li>
           <li><Link href="/blog" className="hover:text-green-600 transition">Blog</Link></li>
         </ul>
 
@@ -52,6 +53,15 @@ export function Navigation() {
               >
                 Home
               </a>
+            </li>
+            <li>
+              <Link 
+                href="/gallery" 
+                onClick={closeMenu}
+                className="block py-2 hover:text-green-600 transition"
+              >
+                Galeri
+              </Link>
             </li>
             <li>
               <Link 
